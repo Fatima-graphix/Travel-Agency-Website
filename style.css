@@ -1,0 +1,138 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding:0;
+  background-color: #f8f9fa;
+  text-decoration: #004aad;
+}
+header {
+  background: #004aad;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 35px;
+  background: #004aad;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: #004aad;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffdd00;
+}
+
+.hero {
+  background: url(back\ image\ 2.webp) center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+video{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 2;
+}
+
+.destinations {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.destinations div {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.destinations img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  transition: transform 0.3s;
+}
+
+.destinations img:hover {
+  transform: scale(1.05);
+}
+
+table {
+  width: 80%;
+  margin: 200px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #004aad;
+  color: white;
+}
+
+form {
+  width: 60%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #0077ff;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
